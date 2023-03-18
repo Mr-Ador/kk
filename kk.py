@@ -405,10 +405,12 @@ def BD_CLONING():
                 pcp=[]
                 clear()
                 pcp.append(f'y')
-                print(' EXAMPLE SIM CODE : [016] [017] [018] [019]')
+                print(' EXAMPLE : 016, 017, 018, 019')
+		print(52*'-')
                 code = input('\033[1;37m INPUT CODE : ')
+		print(52*'-')
                 try:
-                        limit = int(input('\033[1;37m EXAMPLE LIMIT : [2000] [3000] [5000] [10000]\n\033[1;37m INPUT LIMIT: '))
+                        limit = int(input('\033[1;37m EXAMPLE : 2000, 3000, 5000, 10000 print(52*'-')\n\033[1;37m INPUT LIMIT: '))
                 except ValueError:
                         limit = 5000
                 for nmbr in range(limit):
